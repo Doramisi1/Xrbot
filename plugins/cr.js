@@ -19,7 +19,7 @@ let time = moment.tz('Asia/Jakarta').format('HH:mm:ss')
         if (typeof global.db.data.users[who] == "undefined") {
       global.db.data.users[who] = {
         exp: 0,
-        limit: 10,
+        limit: 1000,
         lastclaim: 0,
         registered: false,
         name: conn.getName(m.sender),
@@ -32,7 +32,7 @@ let time = moment.tz('Asia/Jakarta').format('HH:mm:ss')
         lastweekly: 0,
         role: 'Warrior V',
         autolevelup: false,
-        money: 0,
+        money: 100000,
         pasangan: "",
       }
      }
