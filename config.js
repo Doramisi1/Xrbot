@@ -38,15 +38,15 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6288232154376', 'AbiDev', true],
-['6288232154376', 'AbiDev', true],
+['6283849469400', 'ega', true],
+['6283802603905', 'dev ega', true],
 ['6288232154376', 'AbiDev', true] // Jangan Du Hapus Nanti eror 
 ]
 global.mods = []
-global.prems = []
-global.nomorbot = '62882016155766'
-global.nomorown = '6288232154376'
-global.nomorown1 = '6288232154376'
+global.prems = ['6283849469400','6283802603905']
+global.nomorbot = '628388986298'
+global.nomorown = '6283849469400'
+global.nomorown1 = '6283802603905'
 global.nomorown2 = '62882016155766'
 global.nomorwa = '0'
 
@@ -54,41 +54,41 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = '𝘼𝙗𝙞𝘿𝙚𝙫 X 𝙭𝙧𝙗𝙤𝙩'
-global.namebot = '𝙭𝙧𝙗𝙤𝙩 𝗺𝗱'
-global.wm = '© 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 𝙭𝙧𝙗𝙤𝙩 𝗺𝗱'
+global.author = 'ega X AbiDev'
+global.namebot = 'sky bot'
+global.wm = '©  sky bot, jangan di maling'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = '𝙭𝙧𝙗𝙤𝙩 𝗺𝗱 '
+global.wm = 'hayo mau maling ya '
 global.watermark = wm
-global.wm2 = '𝙭𝙧𝙗𝙤𝙩 𝗺𝗱 '
+global.wm2 = 'dosa lo kalau maling '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `𝘼𝙗𝙞𝘿𝙚𝙫 𝐗 𝙭𝙧𝙗𝙤𝙩`
-global.stickpack = '𝘼𝙗𝙞𝘿𝙚𝙫 𝐗 𝙭𝙧𝙗𝙤𝙩 𝗺𝗱'
-global.stickauth = `© 𝙭𝙧𝙗𝙤𝙩 𝗺𝗱`
+global.titlebot = `sky bot X ghost bot`
+global.stickpack = 'di buat untuk di pakai'
+global.stickauth = `© ega-ganteng`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= '𝘼𝙗𝙞𝘿𝙚𝙫'
-global.nameown2 = '𝙭𝙧𝙗𝙤𝙩 𝗺𝗱'
+global.nameown1= 'ega'
+global.nameown2 = 'dev ega'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = '𝐆𝐝𝐚 𝐖𝐤𝐰𝐤'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://instagram.com/Abityru24'
-global.sgh = 'https://github.com/AbiDev11' //github
+global.sig = 'https://instagram.com/ega'
+global.sgh = 'https://github.com/Doramisi1' //github
 global.sgc = 'https://chat.whatsapp.com/BKi5RCs2EHaG2g0e2bJ72r' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/--'
+global.snh = 'https://youtube.com/channel/ftv lovers'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '088232154376'
+global.pdana = '083849469400'
 global.povo = '-'
-global.pgopay = '088232154376'
+global.pgopay = '083849469400'
 global.plinkaja = '-' //link aja
-global.ppulsa = '088232154376'
+global.ppulsa = '083849469400'
 global.ppulsa2 = '-'
 global.psaweria = '-'
 
@@ -130,9 +130,9 @@ global.eror = 'Mohon Maaf Server Kami Sedang Error!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
-global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
+global.benar = 'jawaban kamu benar! ◕◡◕'
+global.salah = 'jawaban kamu salah! ◕◠◕'
+global.dikit = "ayok coba lagi,udah hampir benar!!"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -519,9 +519,9 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = '?????????'
-global.urlnya = "https://www.instagram.com/abityru24"
+global.urlnya = "https://github.com/Doramisi1"
 global.dtc = '???? ?????'
-global.phn = '0882-3215-4376'
+global.phn = '0838-4946-9400'
 
 
 //?? 肓??????帕 ? JNGN DI UBAH ? 帕??????肓 ??
