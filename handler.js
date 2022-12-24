@@ -51,7 +51,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 1000
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.pasangan))
@@ -84,7 +84,7 @@ export async function handler(chatUpdate) {
                     user.autolevelup = true
 
                 if (!isNumber(user.money))
-                    user.money = 0
+                    user.money = 100000
                 if (!isNumber(user.balance))
                     user.balance = 0 
                 if (!isNumber(user.atm))
@@ -330,11 +330,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.premiumTime))
                     user.premiumTime = 0
                 if (!isNumber(user.limitjoin))
-                    user.limitjoin = 0
+                    user.limitjoin = 10000
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 1000,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -349,7 +349,7 @@ export async function handler(chatUpdate) {
                     level: 0,
                     role: 'Beginner',
                     autolevelup: true,
-                    money: 0,
+                    money: 100000,
                     balance: 0,
                     atm: 0,
                     health: 100,
@@ -476,7 +476,7 @@ export async function handler(chatUpdate) {
 					                        
                     premium: false,
                     premiumTime: 0,
-                    limitjoin: 0,
+                    limitjoin: 10000,
                 }
             let chat = global.db.data.chats[m.chat]
             if (typeof chat !== 'object')
@@ -499,7 +499,7 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = true
+                    chat.antiLink = false
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('antiBadword' in chat)) 
@@ -509,7 +509,7 @@ export async function handler(chatUpdate) {
                 if (!('game' in chat))
                     chat.game = false 
                 if (!('nsfw' in chat))
-                    chat.nsfw = false
+                    chat.nsfw = true
                 if (!('premnsfw' in chat))
                     chat.premnsfw = false
                 if (!isNumber(chat.expired))
@@ -524,13 +524,13 @@ export async function handler(chatUpdate) {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: true,
+                    antiLink: false,
                     viewonce: false,
                     antiBadword: true,
                     simi: false,
                     expired: 0,
                     game: false,
-                    nsfw: false,
+                    nsfw: true,
                     premnsfw: false,
                 }
             let settings = global.db.data.settings[this.user.jid]
